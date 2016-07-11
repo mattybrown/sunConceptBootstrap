@@ -1,0 +1,112 @@
+.row
+  .col-xs-12.col-md-8
+    %a{ :href => "#" }
+      %img.img-responsive.story-img{ :src => "http://s3.amazonaws.com/etntmedia/media/images/ext/543627202/happy-people-friends.jpg"}
+    %span.small
+      Here is a caption for this picture. Photo by Cathy Bell.
+    %a{ :href => "#" }
+      %h2
+        Blenheim man finds friends in high places
+    %p.lead
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+
+  .col-xs-12.col-md-4
+    %h3
+      Latest headlines
+    .list-group
+      %a.list-group-item{ :href => "#" }
+        %h4.list-group-item-heading
+          Unconscious bias against Māori children 'structural'
+        %p.list-group-item-text
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+      %a.list-group-item{ :href => "#" }
+        %h4.list-group-item-heading
+          Dallas shootings: Killer 'prepared larger attack'
+        %p.list-group-item-text
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+      %a.list-group-item{ :href => "#" }
+        %h4.list-group-item-heading
+          Dairy owner chased away robbers with broom
+        %p.list-group-item-text
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+
+    <div data-configid="0/37118828" style="height:300px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+
+.row
+  .col-xs-12.col-md-6
+    %a{ :href => "#" }
+      %img.img-responsive.story-img{ :src => "http://www.vietsea.net/upload/news/2015/11/20/20112015125159732269328.jpg" }
+    %span.small
+      Business in the Blenheim CBD is at an all time high.
+    %a{ :href => "#" }
+      %h3
+        Immigrants diversify CBD
+    %p
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  .col-xs-12.col-md-6
+    %a{ :href => "#" }
+      %img.img-responsive.story-img{ :src => "http://www.napieracademy.eu/content/wp-content/uploads/sites/4/2014/04/Young-people-using-smartphones-and-tablets.jpg" }
+    %span.small
+      Not everyone is happy with the final flag decision, but these people are.
+    %a{ :href => "#" }
+      %h3
+        Flag debate finally over
+    %p
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+.row
+  .col-xs-6.col-md-3
+    %a{ :href => "#" }
+      %h3
+        Lotto winners' late night surprise
+    %p
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  .col-xs-6.col-md-3
+    %a{ :href => "#" }
+      %h3
+        The Latest: Lineups for France and Portugal
+    %p
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  .col-xs-6.col-md-3
+    %a{ :href => "#" }
+      %h3
+        Under Fire, Theranos CEO Stifled Bad News
+    %p
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+  .col-xs-6.col-md-3
+    %a{ :href => "#" }
+      %h3
+        Govt not sold on Labour's housing plan
+    %p
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+.row
+  .col-xs-12.col-md-12
+    %h2
+      Out & About
+    #carousel1.carousel.slide{:data => {:ride => "carousel"}}
+      %ol.carousel-indicators
+        %li.active{:data => {:target => "#carousel1", :slide => {:to => "0"}}}
+        %li{:data => {:target => "#carousel1", :slide => {:to => "1"}}}
+        %li{:data => {:target => "#carousel1", :slide => {:to => "2"}}}
+      .carousel-inner{:role => "listbox"}
+        .item.active
+          %img{:src => "http://www.napieracademy.eu/content/wp-content/uploads/sites/4/2014/04/Young-people-using-smartphones-and-tablets.jpg"}
+          .carousel-caption
+            %p
+              Here is a caption for this particular image
+        .item
+          %img{:src => "http://www.vietsea.net/upload/news/2015/11/20/20112015125159732269328.jpg"}
+          .carousel-caption
+            %p
+              Here is another caption for this next image
+        .item
+          %img{:src => "http://s3.amazonaws.com/etntmedia/media/images/ext/543627202/happy-people-friends.jpg"}
+          .carousel-caption
+            %p
+              Here is another caption for this next image
+      %a.left.carousel-control{:href => "#carousel1", :role => "button", :data => {:slide => "prev"}}
+        %span.icon-prev{:aria => {:hidden => "true"}}
+      %a.right.carousel-control{:href => "#carousel1", :role => "button", :data => {:slide => "next"}}
+        %span.icon-next{:aria => {:hidden => "true"}}

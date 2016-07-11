@@ -1,0 +1,39 @@
+.sunlogo {
+  height: 30px; }
+
+.navbar-brand {
+  padding: 10px 10px; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 70px; }
+
+.story-img {
+  border-bottom: #FF0000 4px solid; }
+
+h1, h2, h3 {
+  font-weight: 800; }
+
+.navbar-default {
+  background-color: #000; }
+  .navbar-default .navbar-nav > li > a {
+    color: white;
+    font-weight: 800; }
+    .navbar-default .navbar-nav > li > a:hover {
+      color: #ccc; }
+  .navbar-default .navbar-nav > .active > a {
+    background-color: #000;
+    color: #666; }
+    .navbar-default .navbar-nav > .active > a:hover {
+      background-color: #000;
+      color: #ccc; }
+
+.navbar-header, .navbar-brand {
+  background-color: white; }
+
+a {
+  color: #000; }
+  a:hover {
+    color: #000; }
+
+/*# sourceMappingURL=style.css.map */
