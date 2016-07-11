@@ -38,19 +38,49 @@
             %li
               %a{ :href => "#" }
                 CONTACT
+            %li
+              %a{ :href => "#" }
+                CLASSIFIEDS
     .container-fluid
       .row
         .col-xs-12.col-md-9= yield
 
         .col-md-3.hidden-xs.hidden-sm
-          %p.small
-            Advertisement
-          <!-- med.rec [async] -->
-          <script type="text/javascript">if (!window.AdButler){(function(){var s = document.createElement("script"); s.async = true; s.type = "text/javascript";s.src = 'http://ab168148.adbutler-exciton.com/app.js';var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(s, n);}());}</script>
-          <script type="text/javascript">
-          var AdButler = AdButler || {}; AdButler.ads = AdButler.ads || [];
-          var abkw = window.abkw || '';
-          var plc207253 = window.plc207253 || 0;
-          document.write('<'+'div id="placement_207253_'+plc207253+'"></'+'div>');
-          AdButler.ads.push({handler: function(opt){ AdButler.register(168148, 207253, [300,250], 'placement_207253_'+opt.place, opt); }, opt: { place: plc207253++, keywords: abkw, domain: 'ab168148.adbutler-exciton.com', click:'CLICK_MACRO_PLACEHOLDER' }});
-          </script>
+          .ad-container
+            %p.small
+              Advertisement
+            <!-- side-square [async] -->
+            <script type="text/javascript">if (!window.AdButler){(function(){var s = document.createElement("script"); s.async = true; s.type = "text/javascript";s.src = 'http://ab168148.adbutler-exciton.com/app.js';var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(s, n);}());}</script>
+            <script type="text/javascript">
+            var AdButler = AdButler || {}; AdButler.ads = AdButler.ads || [];
+            var abkw = window.abkw || '';
+            var plc207897 = window.plc207897 || 0;
+            document.write('<'+'div id="placement_207897_'+plc207897+'"></'+'div>');
+            AdButler.ads.push({handler: function(opt){ AdButler.register(168148, 207897, [250,250], 'placement_207897_'+opt.place, opt); }, opt: { place: plc207897++, keywords: abkw, domain: 'ab168148.adbutler-exciton.com', click:'CLICK_MACRO_PLACEHOLDER' }});
+            </script>
+          .ad-container
+            %p.small
+              Advertisement
+            <!-- side-square-2 [async] -->
+            <script type="text/javascript">if (!window.AdButler){(function(){var s = document.createElement("script"); s.async = true; s.type = "text/javascript";s.src = 'http://ab168148.adbutler-exciton.com/app.js';var n = document.getElementsByTagName("script")[0]; n.parentNode.insertBefore(s, n);}());}</script>
+            <script type="text/javascript">
+            var AdButler = AdButler || {}; AdButler.ads = AdButler.ads || [];
+            var abkw = window.abkw || '';
+            var plc207898 = window.plc207898 || 0;
+            document.write('<'+'div id="placement_207898_'+plc207898+'"></'+'div>');
+            AdButler.ads.push({handler: function(opt){ AdButler.register(168148, 207898, [250,250], 'placement_207898_'+opt.place, opt); }, opt: { place: plc207898++, keywords: abkw, domain: 'ab168148.adbutler-exciton.com', click:'CLICK_MACRO_PLACEHOLDER' }});
+            </script>
+
+  %footer
+    .container
+      .col-xs-12.col-md-4
+        %ul.nav.nav-stacked.nav-pills
+          %li
+            %a{:href => "#"}
+              Home
+          %li
+            %a{:href => "#"}
+              About Us
+          %li
+            %a{:href => "#"}
+              Advertising

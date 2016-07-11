@@ -36,4 +36,16 @@ a {
   a:hover {
     color: #000; }
 
+footer {
+  background-color: #000;
+  margin-top: 10px; }
+  footer .nav > li > a {
+    color: #FFF; }
+    footer .nav > li > a:hover {
+      background-color: #000;
+      color: #666; }
+
+.ad-container {
+  margin-bottom: 20px; }
+
 /*# sourceMappingURL=style.css.map */
